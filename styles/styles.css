@@ -1,0 +1,85 @@
+body {
+    background: red;
+    font-size: 30px; 
+    
+} 
+header {
+    background: blue;
+    height: 100px; 
+    width: 900px;
+}
+
+nav {
+    background: green;
+    height: 200px; 
+    width: 500px;
+    float: right;
+
+
+
+}
+
+h1 {
+    font-family: curleyQ, Arieal;
+
+}
+
+#logo {
+    float :left;
+    height: 200px; 
+    width: 500px;
+    float: right;
+
+
+}
+
+#hero {
+    background: white;
+    height: 200px; 
+    width: 500px;
+    float: right;
+
+}
+
+main {
+background: yellow;
+height: 200px; 
+    width: 500px;
+    float: right;
+
+}
+
+.feature {
+    background: crimson;
+    height: 200px; 
+    width: 500px;
+    float: right;
+
+}
+
+footer {
+    background: violet; 
+    height: 200px; 
+    width: 500px;
+    float: right;
+}
+
+#wrapper {
+    width: 500px;
+    margin: auto;
+}
+
+
+li {
+    display: inline;
+}
+
+nav a { 
+    color:blue;
+    text-decoration: none;
+    margin: 0 20px 0 20px
+}
+
+nav a:hover {
+    color:aquamarine;
+}
