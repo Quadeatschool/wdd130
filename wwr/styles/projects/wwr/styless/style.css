@@ -40,6 +40,7 @@ main section img {
 section { 
     background-color:#F5AE62;
     line-height: 1.5em;
+    border: 10px solid #F5AE62;
 }
 
 #background {
@@ -162,7 +163,8 @@ footer a:hover{
 }
 
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #E86868;
+    
 }
 
 .icon {
@@ -203,3 +205,5 @@ footer .social img {
 
 .rivers-card, .camping-card, .rapids-card {  margin: 200px 0;
 }
+
+.background
