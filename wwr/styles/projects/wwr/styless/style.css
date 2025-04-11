@@ -7,9 +7,11 @@
 
 nav a{
     text-align: center;
-    background-color: black;
+    background-color: #F5AE62;
     color: #272754;
-    text-decoration: none
+    text-decoration: none;
+    padding-left: 35px;
+    padding-right: 35px;
 
 }
 
@@ -28,6 +30,16 @@ nav a{
 
 main section {
     text-align: center;
+    
+}
+
+main section img {
+    box-sizing: border-box; 
+}
+
+section { 
+    background-color:#F5AE62;
+    line-height: 1.5em;
 }
 
 #background {
@@ -36,10 +48,15 @@ main section {
 
 body{
         background-color:#272754;
+        font-family: Raleway, Arial, sans-serif;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
     }
     
 header{
         background-color:#F5AE62;
+        color: #272754;
     }
 
 
@@ -47,9 +64,6 @@ header{
         background-color:#F5AE62;
     }
 
-.msg{
-        background-color:#F5AE62;
-    }
 
 
 nav a:hover{
@@ -58,26 +72,39 @@ nav a:hover{
 }
 
 .home-title{
-    background-color: #272754;
+    background-color: #F5AE62;
+    color: #272754;
+}
+
+h2{
+    margin: 0;
+    background-color: #F5AE62;
     color: #272754;
 }
 
 h4{
-    background-color: #272754;
-    color: #F5AE62;
+    background-color: #F5AE62;
+    color: #272754;
 }
 
 .book{
-    
-    background-color: #272754;
-    color: #F5AE62;
-    text-decoration: none
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    background-color: #F5AE62;
+    color: #272754;
+    text-decoration: none;
+    padding: 15px 30px;
 }
 
-.join{ 
+.book, .join{ 
     background-color: #272754;
     color: #F5AE62;
-    text-decoration: none
+    text-decoration: none;
+    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px; 
 }
 
 .book:hover{
@@ -90,17 +117,31 @@ h4{
     color: #519E2B;
 }
 
+.msg{
+    background-color:#F5AE62;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+
 .msg h2{
-    background-color: #272754;
-    color: #F5AE62;
+    background-color: #F5AE62;
+    color: #272754;
 }
 
 .msg p{
+    background-color: #F5AE62;
+    color: #272754;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+   
+}
+footer{ 
     background-color: #272754;
     color: #F5AE62;
-}
-footer{ background-color: #272754;
-    color: #F5AE62;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
@@ -120,12 +161,18 @@ footer a:hover{
     background-color: #F5AE62;
 }
 
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
 }
 
 footer p {
@@ -137,3 +184,22 @@ footer p a:hover {
 }    
 
 
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+#logo_link {
+
+    padding-top: 5px;
+
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {  margin: 200px 0;
+}
