@@ -50,7 +50,7 @@ section {
 
 body{
         background-color:#272754;
-        font-family: Raleway, Arial, sans-serif;
+        font-family: Raleway, "Oswald", sans-serif;
         font-size: 22px;
         margin: 0;
         padding: 0;
@@ -95,7 +95,7 @@ h4{
 }
 
 .book{
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Open Sans';
     font-size: 2em;
     background-color: #E86868;
     color:#272754;
@@ -107,7 +107,7 @@ h4{
     background-color: #E86868;
     color: #272754;
     text-decoration: none;
-    font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Open Sans';
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -139,7 +139,7 @@ h4{
 .msg p{
     background-color: #F5AE62;
     color: #272754;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Oswald', 'Bradley Hand', sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
    
@@ -148,8 +148,11 @@ footer{
     background-color: #272754;
     color: #F5AE62;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 10px;
     height: 10px;
+
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -214,4 +217,11 @@ footer .social img {
 }
 
 .rivers-card, .camping-card, .rapids-card {  margin: 200px 0;
+}
+
+#footy {
+ 
+    line-height: 1.5em;
+    background-color: #E86868;
+
 }
